@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*header start*/
+header{
+  background-color: #121B2A;
+  padding: 10px 0;
+  display: block;
+}
+.wrapper {
+
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo {
+  width: 15%;
+  float: left;
+}
+.logo img{
+  width: 100%;
+}
+.menu {
+  width: 70%;
+  float: right;
+  margin-top: 25px;
+}
+.menu ul{
+  float: right;
+}
+  .menu ul li{
+    list-style: none;
+    float: left;
+  }
+    .menu ul li a{
+      text-decoration: none;
+      padding: 5px 15px;
+      display: block;
+      color: #FFFFFF;
+      transition: .5s;
+    }
+    .menu ul li:last-child a{
+      padding-right: 0;
+    }
+      .menu ul li a:hover {
+        color: #0078BD;
+      }
+/*header end*/
+
+
+/*banner start*/
+.banner{
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+  .banner-content{
+    margin-top: 300px;
+    margin-bottom: 60px;
+    width: 45%;
+    color: white;
+  }
+    .banner-content p:first-child{
+      color: white;
+      font-size: 28px;
+      font-family: sans-serif;
+    }
+      .banner-content h1{
+        color: #C79A62;
+        font-size: 30px;
+        font-family: sans-serif;
+      }
+        .banner-content p:nth-last-child(2){
+          color: white;
+          font-size: 16px;
+          font-family: sans-serif;
+          line-height: 1.5;
+        }
+          .banner-content button{
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #5A5A5A;
+            font-size: 16px;
+            margin top: 20px;
+            background-color: white;
+            text-transform: uppercase;
+            }
+          .banner-content button span {
+            background-color: Blue;
+            padding: 4px 7px;
+            border-radius: 50%;
+            color: white;
+            margin-left: 10px;
+          }
+/*banner end*/
+
+
+/*service start*/
+.service{
+  background-color: #121B2A;
+  padding: 10px 0px;
+  display: block;
+  margin-top: -18px;
+}
+  .single{
+    width: 28%;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 17px;
+  }
+  .single:last-child{
+    border-right: 0;
+  }
+    .title{
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+      .icon{
+        width: 25%;
+        float: left;
+      }
+        .icon img{
+          width: 100%;
+        }
+          .icon_content{
+            width: 65%;
+            float: left;
+            margin-top: 10px;
+          }
+            .icon_content h1{
+              color: white;
+              font-family: sans-serif;
+              text-transform: capitalize;
+              font-weight: normal;
+            }
+              .icon_content h2{
+                color: #0078Bf;
+                font-family: sans-serif;
+                text-transform: capitalize;
+                font-weight: normal;
+              }
+                .content{}
+                  .content p{
+                    color: white;
+                    font-family: sans-serif;
+                    line-height: 1.4;
+                    font-size: 15px;
+                  }
+/*service end*/
+
+
+/*contact start*/
+.contact_shape{
+      width: 20%;
+      margin-right: 20px;
+      padding: 53px 10px;
+      float: left;
+      overflow: hidden;
+      margin-top: 31px;
+      margin-left: 60px;
+}
+.contact_section{
+  background-color: #03060F;
+  padding: 10px 0px;
+  display: block;
+}
+.contact_title{
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.contact_blue{
+  color: #0078BF;
+  }
+.contact_address{
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  word-spacing: 1px;
+}
+.contact_list{
+  color: white;
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  word-spacing: 4px;
+  list-style: none;
+}
+/*box2 start*/
+.co_box {
+  width: 28%;
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-weight: normal;
+  overflow: hidden;
+  float: left;
+  padding-top: 48px;
+}
+.co_title{
+  width: 83%;
+  border-radius: 9px;
+  padding: 18px 25px;
+  background-color: #121B2A;
+}
+.co_title h2{
+  color: white;
+  font-size: 21px;
+}
+}
+.co_blue{
+  color: #0078B1;
+}
+.co_blue{
+  color: #0274BA;
+  margin: 0;
+
+}
+.co_title p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 12px;
+}
+.co_address{
+  color: white;
+}
+.co_email{
+  margin-top: 19px;
+  color: white;
+  font-size: 12px;
+}
+.co_email h4{
+  font-size: 14px;
+}
+/*box2 end*/
+/*box3 start*/
+.mobile_box{
+  width: 28%;
+  font-family: sans-serif;
+
+
+}
+.mobile_title{
+      width: 33%;
+      overflow: hidden;
+      float: right;
+      margin-right: 61px;
+}
+  .mobile_icon{
+        width: 41%;
+        float: left;
+  }
+  .mobile_icon img{
+        width: 100%;
+        overflow: hidden;
+  }
+    .mobile_add{
+          width: 59%;
+          font-size: 27px;
+          overflow: hidden;
+          margin-top: 20px;
+    }
+      .mobile_ocean{
+        margin: 10px 0;
+        font-family: sans-serif;
+      }
+      .mobile_ocean h4{
+        width: 100%;
+        color: #ffffff;
+        margin: 10px 0;
+      }
+        .mobile_ocean h5{
+          width: 100%;
+          color: #0075B8;
+          margin: 0;
+
+        }
+        .mobile_ocean img{
+          width: 71%;
+          overflow: hidden;
+    }
+        }
+        .contact_box:last-child{
+          border-right: 0;
+        }
+/*box3 end*/
+
+/*contact end*/
+/*footer start*/
+footer{
+  background-color: #121B2C;
+  padding: 20px 0;
+  display: block;
+}
+.footer-content {
+    overflow: hidden;
+}
+.footer_left {
+    width: 55%;
+    font-family: sans-serif;
+    float: left;
+    margin: 20px 0 20px;
+}
+
+.right_border {
+    margin: 0 11px;
+}
+.footer_content{
+  margin-top: 10px;
+}
+.footer_menu p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-right {
+    width: 40%;
+    float: right;
+    margin-right: 0;
+}
+
+/*footer end*/
